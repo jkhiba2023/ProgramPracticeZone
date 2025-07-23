@@ -36,10 +36,21 @@ let range = Number(prompt("Enter number from 10 to 20"));
 let result = (range >= 10 && range <= 20) ? ("number lies between 10 to 20") : ("Number is either less than 10 or more than 20");
 console.log(result);*/
 
-/*WAP to find the largest number between 3 numbers using ternary operator.*/
+/*WAP to find the largest number between 3 numbers using ternary operator.
 
 let a = 44;
 let b = 15;
 let c = 77;
 let result = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
-console.log(result);
+console.log(result);*/
+
+/*Match username and password from store database
+
+let username = "Jabir";
+let password = "jabir123";
+let databaseUN = "Jabir";
+let databasePS = "Jabir123";
+let result = (username === databaseUN && password === databasePS) ? ("Logged In Successfully") : ("Invalid Username or Password");
+console.log(result);*/
+
+
