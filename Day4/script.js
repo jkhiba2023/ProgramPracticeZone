@@ -31,4 +31,19 @@
 //   console.log("You are Fail");
 // }
 
-/**/ 
+/*WAP to enter into a club. if your age is greater than or equal to 18 also need and ID for it.*/
+
+// let age = 19;
+// const hadID = true;
+// if (age >= 18) {
+//   if (hadID) {
+//     console.log("Welcome to the hell");
+
+//   } else {
+//     console.log("We Need Your ID Proof");
+
+//   }
+// } else {
+//   console.log("You are restricted in club");
+
+// }
