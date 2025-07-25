@@ -56,15 +56,39 @@ WAP where:
 3. If the cart value is more than $100, apply a 20% discount.
 Display the final cart total after the discount.*/
 
-let shoppingAmount = 50;
-let finalAmount;
-if (shoppingAmount < 50) {
-  finalAmount = shoppingAmount;
-  console.log(`No Discount will be applied on ${finalAmount} it is less , you have to shop atleast 50$ for discount`);
-} else if (shoppingAmount >= 50 && shoppingAmount <= 100) {
-  finalAmount = shoppingAmount - (shoppingAmount * 0.1);
-  console.log(`Congratulation for 10% discount on shopping of ${finalAmount}`);
-} else if (shoppingAmount >= 100) {
-  finalAmount = shoppingAmount - (shoppingAmount * 0.2);
-  console.log(`Congratulation for 20% discount on shopping of ${finalAmount}`);
+// let shoppingAmount = 50;
+// let finalAmount;
+// if (shoppingAmount < 50) {
+//   finalAmount = shoppingAmount;
+//   console.log(`No Discount will be applied on ${finalAmount} it is less , you have to shop atleast 50$ for discount`);
+// } else if (shoppingAmount >= 50 && shoppingAmount <= 100) {
+//   finalAmount = shoppingAmount - (shoppingAmount * 0.1);
+//   console.log(`Congratulation for 10% discount on shopping of ${finalAmount}`);
+// } else if (shoppingAmount >= 100) {
+//   finalAmount = shoppingAmount - (shoppingAmount * 0.2);
+//   console.log(`Congratulation for 20% discount on shopping of ${finalAmount}`);
+// }
+
+/* on a video-streaming platform verify user access to premium content  
+
+WAP to check if a user has a valid subscription. If the user has a subscription, further check if the subscrption is "premium" or "standard".
+
+If "premium", display "Access to all content".
+If "standard", display "Access to limited content".
+If the user doesn't have a subscrption, display "Please subscription to access content".
+*/
+
+let subscriptionType = "No Subscrption";
+let hasSubscription = true;
+
+if (hasSubscription) {
+  if (subscriptionType == "premium") {
+    console.log("Access to all content");
+  } if (subscriptionType == "standard") {
+    console.log("Access to limited content");
+  } else {
+    console.log("Unknown Subscription");
+  }
+} else {
+  console.log("Please subscription to access content");
 }
