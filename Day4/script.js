@@ -47,3 +47,22 @@
 //   console.log("You are restricted in club");
 
 // }
+
+/* A website gives discount based on the total shopping cart amount
+
+WAP where:
+1. If the cart value is less than $50, no discount is applied.
+2. If the cart value is between $50 and $100, apply a 10% discount.
+3. If the cart value is more than $100, apply a 20% discount.
+Display the final cart total after the discount.*/
+
+// let shoppingAmount = 50;
+// if (shoppingAmount < 50) {
+//   console.log(`No Discount will be applied on ${shoppingAmount} it is less , you have to shop atleast 50$ for discount`);
+// } else if (shoppingAmount >= 50 && shoppingAmount <= 100) {
+//   shoppingAmount -= 0.1;
+//   console.log(`Congratulation for 10% discount on shopping of ${shoppingAmount}`);
+// } else if (shoppingAmount >= 100) {
+//   shoppingAmount -= 0.2;
+//   console.log(`Congratulation for 20% discount on shopping of ${shoppingAmount}`);
+// }
