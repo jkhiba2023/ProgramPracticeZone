@@ -56,13 +56,15 @@ WAP where:
 3. If the cart value is more than $100, apply a 20% discount.
 Display the final cart total after the discount.*/
 
-// let shoppingAmount = 50;
-// if (shoppingAmount < 50) {
-//   console.log(`No Discount will be applied on ${shoppingAmount} it is less , you have to shop atleast 50$ for discount`);
-// } else if (shoppingAmount >= 50 && shoppingAmount <= 100) {
-//   shoppingAmount -= 0.1;
-//   console.log(`Congratulation for 10% discount on shopping of ${shoppingAmount}`);
-// } else if (shoppingAmount >= 100) {
-//   shoppingAmount -= 0.2;
-//   console.log(`Congratulation for 20% discount on shopping of ${shoppingAmount}`);
-// }
+let shoppingAmount = 50;
+let finalAmount;
+if (shoppingAmount < 50) {
+  finalAmount = shoppingAmount;
+  console.log(`No Discount will be applied on ${finalAmount} it is less , you have to shop atleast 50$ for discount`);
+} else if (shoppingAmount >= 50 && shoppingAmount <= 100) {
+  finalAmount = shoppingAmount - (shoppingAmount * 0.1);
+  console.log(`Congratulation for 10% discount on shopping of ${finalAmount}`);
+} else if (shoppingAmount >= 100) {
+  finalAmount = shoppingAmount - (shoppingAmount * 0.2);
+  console.log(`Congratulation for 20% discount on shopping of ${finalAmount}`);
+}
