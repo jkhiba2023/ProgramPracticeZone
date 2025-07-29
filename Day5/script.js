@@ -67,3 +67,19 @@ Use switch*/
 //     console.log("You are not accessable");
 //     break;
 // }
+
+
+/*Check if Number is Divisible by 3 or 5 or Both. Print "Fizz* for multible of 3 ,"Buzz" for multiples of 5, "FizzBuzz" for both.*/
+
+// let num = 15;
+// for (let i = 1; i <= num; i++) {
+//   if (num % 3 === 0 && num % 5 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (num % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (num % 5 === 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(`${num} is neither divible by 3 nor divible by 5`);
+//   }
+// }
