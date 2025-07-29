@@ -69,7 +69,7 @@ Display the final cart total after the discount.*/
 //   console.log(`Congratulation for 20% discount on shopping of ${finalAmount}`);
 // }
 
-/* on a video-streaming platform verify user access to premium content  
+/* on a video-streaming platform verify user access to premium content
 
 WAP to check if a user has a valid subscription. If the user has a subscription, further check if the subscrption is "premium" or "standard".
 
@@ -78,17 +78,17 @@ If "standard", display "Access to limited content".
 If the user doesn't have a subscrption, display "Please subscription to access content".
 */
 
-let subscriptionType = "No Subscrption";
-let hasSubscription = true;
+// let subscriptionType = "No Subscrption";
+// let hasSubscription = true;
 
-if (hasSubscription) {
-  if (subscriptionType == "premium") {
-    console.log("Access to all content");
-  } if (subscriptionType == "standard") {
-    console.log("Access to limited content");
-  } else {
-    console.log("Unknown Subscription");
-  }
-} else {
-  console.log("Please subscription to access content");
-}
+// if (hasSubscription) {
+//   if (subscriptionType == "premium") {
+//     console.log("Access to all content");
+//   } if (subscriptionType == "standard") {
+//     console.log("Access to limited content");
+//   } else {
+//     console.log("Unknown Subscription");
+//   }
+// } else {
+//   console.log("Please subscription to access content");
+// }
