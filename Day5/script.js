@@ -25,6 +25,23 @@
 //     console.log("Invalid color");
 // }
 
+// let themeColor = Number(prompt("Choose Number For Your Choice Theme color i.e. 1.Light, 2.Pink, 3.Green, 4.Dark, 5.Blue "));
+// if (themeColor === 1) {
+//   console.log("Theme color is White");
+// } else if (themeColor === 2) {
+//   console.log("Theme color is Pink");
+// } else if (themeColor === 3) {
+//   console.log("Theme color is Green");
+// } else if (themeColor === 4) {
+//   console.log("Theme color is Dark");
+// } else if (themeColor === 5) {
+//   console.log("Theme color is Blue");
+// } else {
+//   console.log("Invalid Theme choosen . Please select the correct theme");
+// }
+
+
+
 /*Find the smallest of three numbers. Numbers are given by the user.*/
 
 // let n1 = Number(prompt("Enter first Number"));
