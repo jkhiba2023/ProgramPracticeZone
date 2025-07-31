@@ -6,3 +6,12 @@
 //   sum += m;
 // }
 // console.log(sum);
+
+/*Print all odd numbers from 0 to n*/
+
+// let n = 20;
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(`This is an odd number ${i}`);
+//   }
+// }
