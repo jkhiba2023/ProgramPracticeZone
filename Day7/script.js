@@ -20,3 +20,13 @@
 // }
 // console.log("vowels Count is " + vowelCount);
 // console.log("consonent count is " + consonentCount);
+
+/*Calculate the sum of first "n" numbers.*/
+// let userInput = parseInt(prompt("Enter The Number to get sum of that number."))
+// let sum = 0;
+// for (let i = 1; i <= userInput; i++) {
+//   console.log(sum, "+",
+//     i);
+//   sum += i;
+// }
+// console.log(sum);
