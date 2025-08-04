@@ -58,3 +58,41 @@
 //   }
 //   console.log(str);
 // }
+
+/*
+Build a simple Text-Based Adventure Game:
+
+"You wake up in the dark forest ...."
+"Do you go 'left' or 'right'?".
+
+"after choosing left:"
+
+"You walk into a swamp..."
+"You see something shiny in the mud. Do you pick it up? (yes or no)"
+"if yes:" "It's a magic stone! You are teleported to safety. You Win!!!"
+"if no:" "You sink slowly into the mud" "Game Over".
+
+"after choosing right:"
+
+"You find a cave...."
+"Do you want to enter inside a cave ? (yes or no)"
+"if yes:" "A dragon wakes up and chases you away. You barely escape!!!" "Game Over!!!!".
+"if no:" "You set up camp outside the cave. A peaceful night under the stars. "You Live"
+
+
+"Do you want to play again ? (Yes or no)".
+*/
+
+
+/*Check if a number is Positive, Negative, or Zero*/
+
+// let enterNumber = parseInt(prompt("enter number to check positive, negative or zero"));
+// if (enterNumber >= 1) {
+//   console.log("Enter number is positive");
+// } else if (enterNumber <= -1) {
+//   console.log("Enter number is negative");
+// } else if (enterNumber === 0) {
+//   console.log("Enter number is zero");
+// } else {
+//   console.log("You have enter invalid Data");
+// }
