@@ -35,7 +35,7 @@ setTimeout(function () {
 /*Create a function that builds a username from a full name.*/
 
 // let userName = (fullname) => {
-//   return ("@" + fullname);
+//   return ("@" + fullname.charAt(0).toUpperCase() + fullname.slice(1) + fullname.length);
 // }
 
 // console.log(userName("Jabirkhan"));
