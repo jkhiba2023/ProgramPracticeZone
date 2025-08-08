@@ -39,3 +39,21 @@ setTimeout(function () {
 // }
 
 // console.log(userName("Jabirkhan"));
+
+/*Write a function that takes a traffic light color and gives the correct instruction (e.g "go" for green, "stop" for red, "caution" for
+yellow, and "invalid color" for anything else.)*/
+
+// function trafficLightColor(color) {
+//   if (color === "red") {
+//     console.log("stop");
+//   } else if (color === "yellow") {
+//     console.log("caution");
+//   } else if (color === "green") {
+//     console.log("go");
+//   } else {
+//     console.log("Invalid color");
+//   }
+// }
+
+// console.log(trafficLightColor("green"));
+
