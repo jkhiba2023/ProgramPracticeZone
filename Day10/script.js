@@ -30,3 +30,12 @@ setTimeout(function () {
 
 // console.log(firstLetterCapitalized("jabir"));
 // console.log(firstLetterCapitalized("khan"));
+
+
+/*Create a function that builds a username from a full name.*/
+
+// let userName = (fullname) => {
+//   return ("@" + fullname);
+// }
+
+// console.log(userName("Jabirkhan"));
