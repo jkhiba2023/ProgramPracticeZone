@@ -83,6 +83,53 @@ Build a simple Text-Based Adventure Game:
 "Do you want to play again ? (Yes or no)".
 */
 
+alert("You wake up in the dark forest ...");
+let playGame = prompt("Press yes or no");
+while (playGame === 'yes') {
+
+  let userChoice = prompt("Do you go 'left' or 'right' ?")
+  if (userChoice === "left") {
+    alert("You walk into a swamp...");
+    userChoice = prompt('Do you pick it up? (yes or no)');
+    if (userChoice === "yes") {
+      alert("It's a magic stone! You are teleported to safety.");
+      alert("You Win!!!");
+      playGame = prompt("Do You Want to play again? (yes or no)")
+      if (playGame === "no") {
+        alert("Hope You enjoyed this game");
+      }
+    } else {
+      alert("You sink slowly into the mud");
+      alert("Game Over!!!");
+      playGame = prompt("Do You Want to play again? (yes or no)")
+      if (playGame === "no") {
+        alert("Hope You enjoyed this game");
+      }
+    }
+  } else if (userChoice === "right") {
+    alert("You find a cave....");
+    userChoice = prompt("Do you want to enter inside a cave ? (yes or no)")
+    if (userChoice === 'yes') {
+      alert("A dragon wakes up and chases you away. You barely escape!!!");
+      alert("Game Over!!!")
+      playGame = prompt("Do You Want to play again? (yes or no)")
+      if (playGame === "no") {
+        alert("Hope You enjoyed this game");
+      }
+    } else {
+      alert("You set up camp outside the cave. A peaceful night under the stars.")
+      alert("You lose!!!")
+      playGame = prompt("Do You Want to play again? (yes or no)")
+      if (playGame === "no") {
+        alert("Hope You enjoyed this game");
+      }
+    }
+  } else {
+    alert("Invalid input");
+  }
+
+}
+
 
 /*Check if a number is Positive, Negative, or Zero*/
 
