@@ -16,3 +16,12 @@ the same type.*/
 // }
 
 // console.log(equalCheck(13, "13"));
+
+
+/*Write a function that takes a value as argument. Return the type of the value.*/
+
+// function checkType(a) {
+//   return typeof (a);
+// }
+
+// console.log(checkType(1));
