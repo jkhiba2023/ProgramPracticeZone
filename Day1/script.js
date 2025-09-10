@@ -35,3 +35,9 @@ quantity (quantity=3). Also, calculate a 10% discount on the total cost and disp
 // let w = 10;
 // let r = l * w;
 // console.log(r);
+
+/*Write a program to find the remainder when one number is divided by another.*/
+// let n1 = 5;
+// let n2 = 3;
+// let remainder = n1 % n2;
+// console.log(remainder)
