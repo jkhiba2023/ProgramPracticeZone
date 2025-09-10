@@ -24,7 +24,14 @@ quantity (quantity=3). Also, calculate a 10% discount on the total cost and disp
 
 /*Write a program to add two numbers given by the user.*/
 
-let a = 15;
-let b = 17;
-let sum = a + b;
-console.log(sum);
+// let a = 15;
+// let b = 17;
+// let sum = a + b;
+// console.log(sum);
+
+/*Write a program to calculate the area of a rectangle (length × width).*/
+
+// let l = 15;
+// let w = 10;
+// let r = l * w;
+// console.log(r);
