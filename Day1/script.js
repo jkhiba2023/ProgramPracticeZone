@@ -23,3 +23,8 @@ quantity (quantity=3). Also, calculate a 10% discount on the total cost and disp
 // console.log(finalPrice);
 
 /*Write a program to add two numbers given by the user.*/
+
+let a = 15;
+let b = 17;
+let sum = a + b;
+console.log(sum);
