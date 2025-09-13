@@ -7,3 +7,10 @@ Write a condition ton check and display a message: "Eligible for booking" if the
 // console.log(check);
 
 
+/*On a login page, verify the user's credentials: Check if uesrname is not empty AND password is not empty(&& operator).
+if either is empty, display an error message: "Both filed are required."*/
+
+let username = prompt("Enter Your Your Name");
+let password = prompt("Enter Your Password");
+let logInDetails = username == "Jabir" && password == "Jabir@123" ? "Your Are Logged In" : "Check the details";
+console.log(logInDetails);
