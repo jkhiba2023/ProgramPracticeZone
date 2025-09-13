@@ -43,7 +43,7 @@ quantity (quantity=3). Also, calculate a 10% discount on the total cost and disp
 // console.log(remainder)
 
 /*Write a program to calculate the square and cube of a given number.*/
-let a = 5;
-let b = 3;
-let squr = a ** b;
-console.log(squr);
+// let a = 5;
+// let b = 3;
+// let squr = a ** b;
+// console.log(squr);
