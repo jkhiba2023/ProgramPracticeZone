@@ -18,8 +18,8 @@ if either is empty, display an error message: "Both filed are required."*/
 /*Find the largest number from given three numbers.
 a=5, b=2, c=12*/
 
-let a = 53;
-let b = 22;
-let c = 12;
-let largestNumber = a > b ? (a > c ? a : c) : (b > c ? b : c);
-console.log(largestNumber);
+// let a = 53;
+// let b = 22;
+// let c = 12;
+// let largestNumber = a > b ? (a > c ? a : c) : (b > c ? b : c);
+// console.log(largestNumber);
