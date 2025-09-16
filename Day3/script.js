@@ -34,6 +34,11 @@
 //   console.log("Not in the range of 10 to 20", num1);
 // }
 
+/*WAP to find the largest number between 3 numbers using ternary operator.*/
+
+// let a = 999; b = 176; c = 107;
+// let largerNumber = a > b ? (a > c ? a : c) : (b > c ? b : c);
+// console.log(largerNumber);
 
 
 
