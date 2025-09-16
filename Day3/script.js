@@ -25,6 +25,16 @@
 // x %= 3;
 // console.log(x);
 
+/*Check if a number os within a range between 10 and 20*/
+
+// let num1 = Number(prompt("Enter any number from 1 to 100"));
+// if (num1 >= 10 && num1 <= 20) {
+//   console.log("Within 20", num1);
+// } else {
+//   console.log("Not in the range of 10 to 20", num1);
+// }
+
+
 
 
 
