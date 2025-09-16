@@ -40,6 +40,15 @@
 // let largerNumber = a > b ? (a > c ? a : c) : (b > c ? b : c);
 // console.log(largerNumber);
 
+/*Take an email and password from the user. If the email or password is incorrect or does not match
+the stored values, display the message "Invalid email or password". If both email and password match
+the store values, display "You are logged in successfully"*/
+
+// let email = prompt("Enter Your Email");
+// let password = prompt("Enter Your Password");
+
+// let checkCrediantial = (email == "test@test.com") && (password == "test@123") ? "You are logged in successfully" : "Invalid email or password"
+// console.log(checkCrediantial);
 
 
 
