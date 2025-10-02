@@ -65,3 +65,26 @@ let Subscription = "premium";
 // } else {
 //   console.log(`${c}`);
 // }
+
+/*WAP to manage Role-Based Access Control 
+Given a user role ("admin","editor","viewer"):
+Admin:full access
+Editor:edit access 
+Viewer:read-only
+Any other:no access 
+Use switch*/
+
+switch ("ssadsad") {
+  case "Admin":
+    console.log("Full Access");
+    break;
+  case "Editor":
+    console.log("Edit Access");
+    break;
+  case "Viewer":
+    console.log("Read-only");
+    break;
+  default:
+    console.log("No access");
+    break;
+}
