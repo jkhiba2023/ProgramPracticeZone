@@ -16,4 +16,5 @@
 //   finalAmount = cartValue - (cartValue * 0.2);
 //   console.log("20% Discount Amount");
 // }
-// console.log("Final Amount is", finalAmount)
+// console.log("Final Amount is", finalAmount);
+
