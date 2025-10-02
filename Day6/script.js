@@ -51,3 +51,17 @@ let Subscription = "premium";
 // } else {
 //   console.log(`Invalid Theme`)
 // }
+
+/*Find the smallest of three numbers. Numbers are given by the user.*/
+
+// let a = 120;
+// let b = 32;
+// let c = 100;
+
+// if (a < b) {
+//   console.log(`${a}`);
+// } else if (b < c) {
+//   console.log(`${b}`)
+// } else {
+//   console.log(`${c}`);
+// }
