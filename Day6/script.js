@@ -20,18 +20,34 @@ let Subscription = "premium";
 //   console.log("Please subscribe to access content")
 // }
 
-let arr = [1, 3, 2, 5, 9, 4];
+// let arr = [1, 3, 2, 5, 9, 4];
 
-function check(arr) {
-  let max = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
-    }
+// function check(arr) {
+//   let max = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
 
-  }
+//   }
 
-  return max
-}
+//   return max
+// }
 
-console.log(check(arr));
+// console.log(check(arr));
+
+
+/*Give choice to the user to select theme color and set the selected theme color and console it*/
+
+// let themeColor = "yellow";
+// if (themeColor === "red") {
+//   console.log(`Your theme color is red`)
+// } else if (themeColor === "blue") {
+//   console.log(`Your theme color is blue`)
+// } else if (themeColor === "yellow") {
+//   console.log(`Your theme color is yellow`)
+// } else if (themeColor === "green") {
+//   console.log(`Your theme color is green`)
+// } else {
+//   console.log(`Invalid Theme`)
+// }
