@@ -1,5 +1,5 @@
-/*Scenior: On a video-steaming platform, verify user access to premium content. 
-Question: WAP to check if a user has a valid subscription. If the user has a subscription, futher 
+/*Scenior: On a video-steaming platform, verify user access to premium content.
+Question: WAP to check if a user has a valid subscription. If the user has a subscription, futher
 check if the subscription is "premium" or "standard".
 
 If "premium", display "Access to all content".
@@ -7,8 +7,8 @@ If "standard", display "Access to limited content".
 If the user doesn't have a subscription, display "Please subscribe to access content".
 */
 
-let hasSubscription = true;
-let Subscription = "premium";
+// let hasSubscription = true;
+// let Subscription = "premium";
 
 // if (hasSubscription) {
 //   if (Subscription === "premium") {
@@ -66,25 +66,25 @@ let Subscription = "premium";
 //   console.log(`${c}`);
 // }
 
-/*WAP to manage Role-Based Access Control 
+/*WAP to manage Role-Based Access Control
 Given a user role ("admin","editor","viewer"):
 Admin:full access
-Editor:edit access 
+Editor:edit access
 Viewer:read-only
-Any other:no access 
+Any other:no access
 Use switch*/
 
-switch ("ssadsad") {
-  case "Admin":
-    console.log("Full Access");
-    break;
-  case "Editor":
-    console.log("Edit Access");
-    break;
-  case "Viewer":
-    console.log("Read-only");
-    break;
-  default:
-    console.log("No access");
-    break;
-}
+// switch ("ssadsad") {
+//   case "Admin":
+//     console.log("Full Access");
+//     break;
+//   case "Editor":
+//     console.log("Edit Access");
+//     break;
+//   case "Viewer":
+//     console.log("Read-only");
+//     break;
+//   default:
+//     console.log("No access");
+//     break;
+// }
