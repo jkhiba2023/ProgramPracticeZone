@@ -23,5 +23,15 @@
 //   }
 // }
 
+/*Create a "Number Knock" game.*/
+// let userInput = Number(prompt("Guess the number"));
+// let guessingNumber = Math.floor(Math.random() * 10);
+// if (guessingNumber === userInput) {
+//   console.log('You have guess the correct number', userInput);
+// } else {
+//   console.log("Invalid Guessing Number");
+
+// }
+
 
 
