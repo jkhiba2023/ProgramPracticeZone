@@ -32,3 +32,42 @@
 //   sum += i;
 // }
 // console.log(sum);
+
+/*find the largest number*/
+
+// let arr = [27, 88, 72, 34, 78, 23];
+
+
+// function largestNum(arr) {
+//   let largestNumber = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largestNumber) {
+//       largestNumber = arr[i];
+//     }
+//   }
+//   return largestNumber
+// }
+
+// console.log(largestNum(arr));
+
+
+/*find the second largest number*/
+
+let arr = [323, 101, 47, 34, 177, 992];
+
+
+function secondLarge(arr) {
+  let largestNum = 0;
+  let secondLargestNum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > largestNum) {
+      secondLargestNum = largestNum;
+      largestNum = arr[i];
+    } else if (arr[i] > secondLargestNum && arr[i] !== largestNum) {
+      secondLargestNum = arr[i]
+    }
+  }
+  return secondLargestNum;
+}
+
+console.log(secondLarge(arr));
