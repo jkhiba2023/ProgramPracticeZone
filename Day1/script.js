@@ -18,3 +18,21 @@
 // }
 
 // console.log(reverseStr(newStr));
+
+//Find the largest Number in an array
+
+let arr = [12, 44, 28, 11, 16];
+
+
+function largestNum(arr) {
+  let max = arr[0];
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+}
+
+console.log(largestNum(arr));
