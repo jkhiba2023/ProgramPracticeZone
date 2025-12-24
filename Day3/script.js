@@ -16,3 +16,14 @@ capitalized*/
 // setInterval(function () {
 //   alert("Please Log In")
 // }, 5000);
+
+/*Make an arrow function that takes a price and a discount and returns the price after discount*/
+
+// let price = 100;
+// let discount = (price * 10) / 100
+
+// let discountPrice = (price, discount) => {
+//   return price - discount;
+// }
+
+// console.log(discountPrice(price, discount))
